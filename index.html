@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare - Clínica Veterinária e Pet Shop</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#home">
+                <i class="bi bi-house-heart-fill me-2"></i>
+                PetCare
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quem-somos">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contatos">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-white mb-4">
+                        Cuidamos do seu <span class="text-warning">melhor amigo</span>
+                    </h1>
+                    <p class="lead text-white mb-4">
+                        Na PetCare, oferecemos cuidados veterinários completos e produtos de qualidade 
+                        para garantir a saúde e felicidade do seu pet.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#contatos" class="btn btn-warning btn-lg px-4">
+                            <i class="bi bi-calendar-check me-2"></i>
+                            Agendar Consulta
+                        </a>
+                        <a href="#produtos" class="btn btn-outline-light btn-lg px-4">
+                            Ver Produtos
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image">
+                        <i class="bi bi-heart-pulse-fill text-warning" style="font-size: 15rem;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quem Somos Section -->
+    <section id="quem-somos" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h2 class="display-5 fw-bold mb-4">Quem Somos</h2>
+                    <p class="lead mb-4">
+                        A PetCare é uma clínica veterinária e pet shop dedicada ao bem-estar 
+                        dos seus animais de estimação há mais de 10 anos.
+                    </p>
+                    <p class="mb-4">
+                        Nossa equipe é formada por veterinários experientes e apaixonados por animais, 
+                        que oferecem cuidados médicos completos, desde consultas de rotina até 
+                        procedimentos cirúrgicos complexos.
+                    </p>
+                    <p class="mb-4">
+                        Além dos serviços veterinários, contamos com uma completa linha de produtos 
+                        para pets, incluindo rações premium, brinquedos, acessórios e medicamentos.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <div class="card h-100 text-center border-0 shadow-sm">
+                                <div class="card-body">
+                                    <i class="bi bi-award-fill text-primary mb-3" style="font-size: 3rem;"></i>
+                                    <h5 class="card-title">10+ Anos</h5>
+                                    <p class="card-text">de experiência cuidando dos seus pets</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100 text-center border-0 shadow-sm">
+                                <div class="card-body">
+                                    <i class="bi bi-people-fill text-success mb-3" style="font-size: 3rem;"></i>
+                                    <h5 class="card-title">5000+</h5>
+                                    <p class="card-text">clientes satisfeitos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100 text-center border-0 shadow-sm">
+                                <div class="card-body">
+                                    <i class="bi bi-clock-fill text-warning mb-3" style="font-size: 3rem;"></i>
+                                    <h5 class="card-title">24/7</h5>
+                                    <p class="card-text">emergências veterinárias</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100 text-center border-0 shadow-sm">
+                                <div class="card-body">
+                                    <i class="bi bi-heart-fill text-danger mb-3" style="font-size: 3rem;"></i>
+                                    <h5 class="card-title">Amor</h5>
+                                    <p class="card-text">e dedicação em cada atendimento</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Section -->
+    <section id="produtos" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Nossos Produtos</h2>
+                <p class="lead">Tudo que seu pet precisa em um só lugar</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-box-seam-fill text-primary mb-3" style="font-size: 4rem;"></i>
+                            <h5 class="card-title">Rações Premium</h5>
+                            <p class="card-text">
+                                Rações de alta qualidade para cães e gatos de todas as idades, 
+                                com nutrição balanceada e ingredientes selecionados.
+                            </p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Royal Canin</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Hill's</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Pedigree</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Whiskas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-balloon-heart-fill text-danger mb-3" style="font-size: 4rem;"></i>
+                            <h5 class="card-title">Brinquedos</h5>
+                            <p class="card-text">
+                                Brinquedos divertidos e seguros para manter seu pet ativo e feliz, 
+                                desenvolvidos especialmente para cada tipo de animal.
+                            </p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Bolas e cordas</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Brinquedos educativos</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Pelúcias</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Brinquedos interativos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-gem text-warning mb-3" style="font-size: 4rem;"></i>
+                            <h5 class="card-title">Acessórios</h5>
+                            <p class="card-text">
+                                Acessórios elegantes e funcionais para deixar seu pet ainda mais 
+                                bonito e confortável no dia a dia.
+                            </p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Coleiras e guias</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Camas e almofadas</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Comedouros</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Transportadoras</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-capsule text-info mb-3" style="font-size: 4rem;"></i>
+                            <h5 class="card-title">Medicamentos</h5>
+                            <p class="card-text">
+                                Medicamentos veterinários de qualidade para tratamento e prevenção, 
+                                sempre com orientação profissional.
+                            </p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Antiparasitários</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Vitaminas</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Antibióticos</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Suplementos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-scissors text-secondary mb-3" style="font-size: 4rem;"></i>
+                            <h5 class="card-title">Higiene & Beleza</h5>
+                            <p class="card-text">
+                                Produtos para manter seu pet sempre limpo, cheiroso e bonito, 
+                                com segurança e qualidade garantidas.
+                            </p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Shampoos e condicionadores</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Escovas e pentes</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Cortadores de unha</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Perfumes pet</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-house-door-fill text-success mb-3" style="font-size: 4rem;"></i>
+                            <h5 class="card-title">Casa & Conforto</h5>
+                            <p class="card-text">
+                                Produtos para criar um ambiente confortável e seguro para seu pet 
+                                em casa, com qualidade e design modernos.
+                            </p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Casinhas e tocas</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Arranhadores</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Tapetes higiênicos</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Grades e cercados</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contatos Section -->
+    <section id="contatos" class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Entre em Contato</h2>
+                <p class="lead">Estamos aqui para cuidar do seu pet</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <div class="card bg-white text-dark">
+                        <div class="card-body p-4">
+                            <h5 class="card-title mb-4">Envie uma Mensagem</h5>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="nome" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">E-mail</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="telefone" class="form-label">Telefone</label>
+                                        <input type="tel" class="form-control" id="telefone">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="pet" class="form-label">Nome do Pet</label>
+                                        <input type="text" class="form-control" id="pet">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="assunto" class="form-label">Assunto</label>
+                                        <select class="form-select" id="assunto">
+                                            <option value="">Selecione um assunto</option>
+                                            <option value="consulta">Agendar Consulta</option>
+                                            <option value="emergencia">Emergência</option>
+                                            <option value="produtos">Informações sobre Produtos</option>
+                                            <option value="outros">Outros</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="mensagem" class="form-label">Mensagem</label>
+                                        <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-lg">
+                                            <i class="bi bi-send-fill me-2"></i>
+                                            Enviar Mensagem
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <div class="contact-item mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill me-3" style="font-size: 2rem;"></i>
+                                <div>
+                                    <h5 class="mb-1">Endereço</h5>
+                                    <p class="mb-0">Rua dos Pets, 123<br>Centro - São Paulo/SP<br>CEP: 01234-567</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-telephone-fill me-3" style="font-size: 2rem;"></i>
+                                <div>
+                                    <h5 class="mb-1">Telefones</h5>
+                                    <p class="mb-0">(11) 1234-5678<br>(11) 98765-4321</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-envelope-fill me-3" style="font-size: 2rem;"></i>
+                                <div>
+                                    <h5 class="mb-1">E-mail</h5>
+                                    <p class="mb-0">contato@petcare.com.br<br>emergencia@petcare.com.br</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-clock-fill me-3" style="font-size: 2rem;"></i>
+                                <div>
+                                    <h5 class="mb-1">Horário de Funcionamento</h5>
+                                    <p class="mb-0">
+                                        Segunda a Sexta: 8h às 18h<br>
+                                        Sábado: 8h às 16h<br>
+                                        Domingo: 8h às 12h<br>
+                                        <small>Emergências 24h</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h5 class="mb-3">Redes Sociais</h5>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-outline-light btn-lg rounded-circle">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-light btn-lg rounded-circle">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-light btn-lg rounded-circle">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-light btn-lg rounded-circle">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 PetCare - Clínica Veterinária e Pet Shop. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#home" class="btn btn-outline-light btn-sm">
+                        <i class="bi bi-arrow-up-circle-fill me-1"></i>
+                        Voltar ao Topo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
